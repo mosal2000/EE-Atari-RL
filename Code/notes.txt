@@ -1,0 +1,1 @@
+python must be version 3.7 for tensorflow to work
