@@ -1,1 +1,10 @@
 python must be version 3.7 for tensorflow to work
+
+use this for installing the stuff:
+!pip install tensorflow==2.3.1 gym keras-rl2==1.0.4 gym[atari]==0.18.0
+
+gym might have to be 0.18.0
+
+ok so if the roms dont work go to link: https://github.com/grantsrb/Gym-Snake
+install the roms folder and then use cmd:
+python -m atari_py.import_roms "C:\Users\Zaid Salahuddin\Documents\Snek Schizms\EE Atari RL\Roms\Roms" 
