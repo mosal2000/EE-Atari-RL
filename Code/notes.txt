@@ -9,3 +9,9 @@ ok so if the roms dont work go to link: https://github.com/grantsrb/Gym-Snake
 install the roms folder and then use cmd:
 python -m atari_py.import_roms "C:\Users\Zaid Salahuddin\Documents\Snek Schizms\EE Atari RL\Roms\Roms" 
 python -m atari_py.import_roms "/Users/zaidsalahuddin/Documents/Snake\ Stuffz/Roms"
+
+ipykernel not working on mac
+trying:
+conda install -n eeenv ipykernel --update-deps --force-reinstall
+pip install --upgrade ipython
+above dont work, instead download correct version of ipykernel (6.16.2)
