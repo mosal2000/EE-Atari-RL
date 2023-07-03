@@ -1,0 +1,14 @@
+GIT 
+List ssh keys if they exist: 
+ls -al ~/.ssh
+
+Generate ssh key: 
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+copy the ssh key: 
+clip < ~/.ssh/id_ed25519.pub
+________________________________________________
+ANACONDA
+oneliner for the libraries:
+pip install atari-py==0.2.9 tensorflow==2.3.0 ipykernel==6.16.2 keras==2.4.3 keras-rl2==1.0.5 gym==0.18.0 h5py==2.10.0 pyglet==1.5.0
+python -m atari_py.import_roms "<filepath>" 
