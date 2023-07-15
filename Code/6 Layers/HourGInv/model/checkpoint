@@ -1,0 +1,2 @@
+model_checkpoint_path: "6L_HourGInv_weights.h5f"
+all_model_checkpoint_paths: "6L_HourGInv_weights.h5f"
